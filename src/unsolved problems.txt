@@ -5,3 +5,5 @@ and display the integers in non-decreasing order.
 
 
 this version of intellij is being used for pure java development
+
+starting now hacker rank challenges now, haha good good

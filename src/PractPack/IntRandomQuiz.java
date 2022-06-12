@@ -10,6 +10,8 @@ public class IntRandomQuiz {
     private static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
+
+
         System.out.println("lower limit : ");
         int lowerLimit = input.nextInt();
         lowerLimit = Math.abs(lowerLimit);
