@@ -8,34 +8,32 @@ import java.util.concurrent.ThreadLocalRandom;
 public class StudentMain {
     public static void main(String[] args) {
 
-        MarksClass[] studentMarks = new MarksClass[100];
+        MarksClass[] studentData = new MarksClass[100];
 
-        for (MarksClass studentMark : studentMarks) {
-            // null pointer exception here
-            studentMark.chemistry = getRandomNumber(30, 100);
-            studentMark.biology = getRandomNumber(30, 100);
-            studentMark.english = getRandomNumber(30, 100);
-            studentMark.urdu = getRandomNumber(30, 100);
-            studentMark.math = getRandomNumber(30, 100);
-            studentMark.physics = getRandomNumber(30, 100);
+        for (MarksClass studentRecord : studentData) {
+            studentRecord.setChamistryMarks(getRandomNumber(30, 100));
+            studentRecord.setBiologyMarks(getRandomNumber(30, 100));
+            studentRecord.setEnglishMarks(getRandomNumber(30, 100));
+            studentRecord.setUrduMarks(getRandomNumber(30, 100));
+            studentRecord.setMathMarks(getRandomNumber(30, 100));
+            studentRecord.setPhysicsMarks(getRandomNumber(30, 100));
         }
 
 
-        for (int i = 0; i < studentMarks.length; i++) {
-            System.out.println("Student " + studentMarks[i + 1] + " Details");
+        for (int i = 0; i < studentData.length; i++) {
+            System.out.println("Student " + studentData[i + 1] + " Details");
             System.out.println("--------------------------------------");
-            System.out.println("Chemistry   " + studentMarks[i].chemistry);
-            System.out.println("Biology     " + studentMarks[i].biology);
-            System.out.println("English     " + studentMarks[i].english);
-            System.out.println("Urdu        " + studentMarks[i].urdu);
-            System.out.println("Mathematics " + studentMarks[i].math);
-            System.out.println("Physics     " + studentMarks[i].physics);
+            System.out.println("Chemistry   " + studentData[i].getChemistryMarks());
+            System.out.println("Biology     " + studentData[i].getBiologyMarks());
+            System.out.println("English     " + studentData[i].setEnglishMarks());
+            System.out.println("Urdu        " + studentData[i].getUrduMarks());
+            System.out.println("Mathematics " + studentData[i].getMathMarks());
+            System.out.println("Physics     " + studentData[i].getPhysicsMarks());
             System.out.println("--------------------------------------");
-            System.out.println("OBTAINED MARKS  " + studentMarks[i].getObtainedMarks());
-            System.out.println("PERCENTAGE OF MARKS " + studentMarks[i].getPersontage());
+            System.out.println("OBTAINED MARKS  " + studentData[i].getObtainedMarks());
+            System.out.println("PERCENTAGE OF MARKS " + studentData[i].getPersontage());
             System.out.println("======================================");
         }
-
 
     }
 

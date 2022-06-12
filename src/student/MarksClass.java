@@ -7,12 +7,12 @@ import java.util.concurrent.ThreadLocalRandom;
  */
 public class MarksClass {
 
-    public int chemistry;
-    public int biology;
-    public int math;
-    public int physics;
-    public int english;
-    public int urdu;
+    private int chemistry;
+    private int biology;
+    private int math;
+    private int physics;
+    private int english;
+    private int urdu;
 
     public MarksClass() {
         chemistry = ThreadLocalRandom.current().nextInt(60, 100);
@@ -33,51 +33,51 @@ public class MarksClass {
         this.urdu = urdu;
     }
 
-    public int getChemistry() {
+    public int getChemistryMarks() {
         return chemistry;
     }
 
-    public void setChemistry(int chemistry) {
+    public void setChamistryMarks(int chemistry) {
         this.chemistry = chemistry;
     }
 
-    public int getBiology() {
+    public int getBiologyMarks() {
         return biology;
     }
 
-    public void setBiology(int biology) {
+    public void setBiologyMarks(int biology) {
         this.biology = biology;
     }
 
-    public int getMath() {
+    public int getMathMarks() {
         return math;
     }
 
-    public void setMath(int math) {
+    public void setMathMarks(int math) {
         this.math = math;
     }
 
-    public int getPhysics() {
+    public int getPhysicsMarks() {
         return physics;
     }
 
-    public void setPhysics(int physics) {
+    public void setPhysicsMarks(int physics) {
         this.physics = physics;
     }
 
-    public int getEnglish() {
+    public int setEnglishMarks() {
         return english;
     }
 
-    public void setEnglish(int english) {
+    public void setEnglishMarks(int english) {
         this.english = english;
     }
 
-    public int getUrdu() {
+    public int getUrduMarks() {
         return urdu;
     }
 
-    public void setUrdu(int urdu) {
+    public void setUrduMarks(int urdu) {
         this.urdu = urdu;
     }
 
@@ -88,6 +88,9 @@ public class MarksClass {
     public float getPersontage() {
         return ((float) getObtainedMarks() / (float) 600) * (float) 100;
     }
+
+
+
 
 
 }

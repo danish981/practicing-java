@@ -7,3 +7,7 @@ and display the integers in non-decreasing order.
 this version of intellij is being used for pure java development
 
 starting now hacker rank challenges now, haha good good
+
+========================= track me ==========================
+
+currently solving hacker rank challenges to polish my data structures skills

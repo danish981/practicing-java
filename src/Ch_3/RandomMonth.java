@@ -1,15 +1,18 @@
 package Ch_3;
 
+import java.util.Scanner;
+
 public class RandomMonth {
+
+    private static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
 
+        System.out.println("enter lower limit ");
+        int lowerLimit = input.nextInt();
 
-        //to generate a random number using Math class we specify
-
-        int lowerLimit = 1;
-        int upperLimit = 12;
-
+        System.out.println("enter upper limit ");
+        int upperLimit = input.nextInt();
 
         if (lowerLimit > upperLimit) {
             int temp = lowerLimit;

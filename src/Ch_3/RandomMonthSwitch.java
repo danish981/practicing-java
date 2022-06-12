@@ -1,18 +1,24 @@
 package Ch_3;
 
+import java.util.Scanner;
+
 public class RandomMonthSwitch {
+    private final static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int lowerLimit = 1;
-        int upperLimit = 12;
 
+
+        System.out.println("lower limit : ");
+        int lowerLimit = input.nextInt();
+
+        System.out.println("upper limit : ");
+        int upperLimit = input.nextInt();
 
         if (lowerLimit > upperLimit) {
             int temp = lowerLimit;
             lowerLimit = upperLimit;
             upperLimit = temp;
         }
-
 
         int randomNumber = (int) (Math.random() * upperLimit) + lowerLimit;
 
