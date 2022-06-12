@@ -11,7 +11,7 @@ public class Sorts {
      * @param array a non-empty array of integers
      * @return the sorted array using the bubble sort algorithm
      */
-    public static int[] bubbleSort(int array[]) {
+    public static int[] bubbleSort(int[] array) {
 
         //assuming that every passed argument is integer type array and length greater than 0
         int tmp;
@@ -35,7 +35,7 @@ public class Sorts {
      * @param array a non-empty array of integers
      * @return the sorted array using the selection sort algorithm
      */
-    public static int[] selectionSort(int array[]) {
+    public static int[] selectionSort(int[] array) {
         //move the boundary number one by one to the next
         for (int i = 0; i < array.length - 1; i++) {
             int min_index = i;
@@ -60,7 +60,7 @@ public class Sorts {
      * @param array a non-empty array of integers
      * @return the sorted array using the insertion sort algorithm
      */
-    public static int[] insertionSort(int array[]) {
+    public static int[] insertionSort(int[] array) {
 
         int n = array.length;
         for (int i = 1; i < n; i++) {

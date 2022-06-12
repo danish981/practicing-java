@@ -7,7 +7,7 @@ import java.util.concurrent.ThreadLocalRandom;
  * Created by Developers on 31-Oct-20.
  */
 public class IntRandomQuiz {
-    private static Scanner input = new Scanner(System.in);
+    private static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
         System.out.println("lower limit : ");
@@ -34,7 +34,7 @@ public class IntRandomQuiz {
             upperLimit = 99;
         }
 
-        int arrayRandom[] = new int[numRandom];
+        int[] arrayRandom = new int[numRandom];
 
         for (int i = 0; i < arrayRandom.length; i++) {
             arrayRandom[i] = ThreadLocalRandom.current().nextInt(lowerLimit, upperLimit);

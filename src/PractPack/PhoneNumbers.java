@@ -9,7 +9,7 @@ public class PhoneNumbers {
 
     public static void main(String[] args) {
 
-        String phoneNumbersArray[] = new String[100];
+        String[] phoneNumbersArray = new String[100];
 
         for (int i = 1; i <= 1000; i++) {
             String simCode = "03" + digit(0, 4) + digit(0, 7);
@@ -23,7 +23,7 @@ public class PhoneNumbers {
 
     }
 
-    private static void printArray(String array[]) {
+    private static void printArray(String[] array) {
         if (array.length == 0)
             return;
         for (String anArray : array) {

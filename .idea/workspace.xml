@@ -19,24 +19,27 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c06880f-ce84-4e42-b2a6-9952733d3c90" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="8c06880f-ce84-4e42-b2a6-9952733d3c90" name="Default" comment="changes made">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PractPack/ArraySearching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PractPack/ArraySearching.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PractPack/IntRandomQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PractPack/IntRandomQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PractPack/PhoneNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PractPack/PhoneNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PractPack/Sorts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PractPack/Sorts.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="2AUITmt4Oro5sW2jrEFKdCxCD9Z" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -59,7 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
@@ -138,11 +141,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changes made" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes made" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="107" y="273" key="SettingsEditor" timestamp="1655057998153">
+    <state x="130" y="159" width="998" height="708" key="SettingsEditor" timestamp="1655059226325">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="107" y="273" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1655057998153" />
+    <state x="130" y="159" width="998" height="708" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1655059226325" />
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2" timestamp="1655058451862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="224" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1655058451862" />
   </component>
 </project>

@@ -7,7 +7,8 @@ import java.util.concurrent.ThreadLocalRandom;
  * Created by Developers on 16-Dec-20.
  */
 public class ArraySearching {
-    private static Scanner input = new Scanner(System.in);
+
+    private static final Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -20,7 +21,6 @@ public class ArraySearching {
         for (int i = 0; i < arrayNum.length; i++) {
             arrayNum[i] = ThreadLocalRandom.current().nextInt(10, 99);
         }
-
 
         // code for searching an element from array
         System.out.println("ENTER NUMBER TO SEARCH FROM THE ARRAY");
