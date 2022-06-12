@@ -14,7 +14,7 @@ public class ArraySearching {
         System.out.print("Enter the length of Array : ");
         int arrayLength = input.nextInt();
         arrayLength = Math.abs(arrayLength);
-        int arrayNum[] = new int[arrayLength];
+        int[] arrayNum = new int[arrayLength];
 
         // filling the array with random numbers
         for (int i = 0; i < arrayNum.length; i++) {
