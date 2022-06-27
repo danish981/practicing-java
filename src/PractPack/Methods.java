@@ -113,7 +113,7 @@ public class Methods {
      * @param array any array of integers
      * @param col   number of columns in which the array will be printed
      */
-    public static void printArray(int array[], int col) {
+    public static void printArray(int[] array, int col) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + "\t");
             if ((i + 1) % col == 0) {
@@ -171,7 +171,7 @@ public class Methods {
      * @param array any integer type array
      * @return the average of all the number inside the array
      */
-    public static int getAverageNum(int array[]) {
+    public static int getAverageNum(int[] array) {
         int sum = 0;
         for (int value : array) {
             sum = sum + value;
@@ -189,7 +189,7 @@ public class Methods {
      * @param array an int type array
      * @return true if array is emtpy
      */
-    private static boolean isArrayEmpty(int array[]) {
+    private static boolean isArrayEmpty(int[] array) {
         return array.length == 0;
     }
 
@@ -203,7 +203,7 @@ public class Methods {
      * @param target int type number to be searched into array to count repetitions
      * @return number of repetitions from array, -1 is array is empty, 0 if no repetitions found
      */
-    public static int countRepeatingElements(int array[], int target) {
+    public static int countRepeatingElements(int[] array, int target) {
         if (isArrayEmpty(array)) {
             return -1;
         }
@@ -225,7 +225,7 @@ public class Methods {
      * @param target a double type number
      * @return -1 if array is blank, 0 if no repeating element found, or a number, of how many times found
      */
-    public static int countRepeatingElements(double array[], double target) {
+    public static int countRepeatingElements(double[] array, double target) {
         if (array.length == 0) {
             return -1;
         }
